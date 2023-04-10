@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
+import LogoGrid from '../../components/logoGrid'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +15,7 @@ export default function Home() {
       </Head>
       
     <main className={inter.className}>
-      markupvaut
+      <LogoGrid/>  
     </main>
     </>
   )
