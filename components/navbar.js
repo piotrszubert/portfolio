@@ -35,7 +35,7 @@ export default function Navbar() {
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <span>Logo</span>
                         <div className="md:hidden">
-                            <button role="button" aria-label="Open the menu" className="text-gray-500 hover:text-gray-800"
+                            <button role="button" aria-label="Open the menu" className="text-gwhiteray-500 hover:text-purple-400"
                                 onClick={handleNavMenu}
                             >
                                 {
