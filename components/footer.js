@@ -33,8 +33,8 @@ export default function Footer() {
                         <ul className="flex flex-wrap items-center gap-4 text-sm sm:text-base">
                             {
                                 footerNavs.map((item, idx) => (
-                                    <li className="text-white hover:text-purple-400 duration-150">
-                                        <a key={idx} href={item.href}>
+                                    <li key={idx} className="text-white hover:text-purple-400 duration-150">
+                                        <a href={item.href}>
                                             {item.name}
                                         </a>
                                     </li>

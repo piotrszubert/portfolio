@@ -73,7 +73,7 @@ export default function Navbar() {
                                     href="/get-started"
                                     className="block font-medium text-sm px-4 py-2 rounded-lg hover:cursor-pointer text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
                                 >
-                                    Let's work
+                                    Lets work
                                 </span>
                             </li>
                         </ul>
