@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Footer() {
 
     const footerNavs = [
@@ -19,13 +21,15 @@ export default function Footer() {
         }
     ]
     return (
-        <footer className="pt-10 bg-indigo-900">
+        <footer className="pt-10 bg-indigo-600">
             <div className="max-w-screen-xl mx-auto px-4 text-slate-400 md:px-8">
                 <div className="justify-between sm:flex">
                     <div className="space-y-6">
-                        <div className="flex gap-2">
-                            <img src="/icons/nextjs.svg" className="" />
-                            Logo
+                        <div>
+                            <Link className="flex gap-2 text-white text-xl" href="/">
+                                <img src="/icons/nextjs.svg" className="" />
+                                Logo
+                            </Link>
                         </div>
                         <p className="max-w-md">
                             Nulla auctor metus vitae lectus iaculis, vel euismod massa efficitur.

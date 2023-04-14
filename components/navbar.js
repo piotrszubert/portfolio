@@ -30,10 +30,13 @@ export default function Navbar() {
 
     return (
         <header>
-            <nav className={`bg-indigo-900 text-white w-full px-4 md:static md:text-sm ${state ? "fixed z-10 h-full" : ""}`}>
+            <nav className={`bg-indigo-600 text-white w-full px-4 md:static md:text-sm ${state ? "fixed z-10 h-full" : ""}`}>
                 <div className="custom-screen items-center mx-auto md:flex">
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <span>Logo</span>
+                        <Link className="flex gap-2 text-white text-xl" href="/">
+                            <img src="/icons/nextjs.svg" className="" />
+                            Logo
+                        </Link>
                         <div className="md:hidden">
                             <button role="button" aria-label="Open the menu" className="text-gwhiteray-500 hover:text-purple-400"
                                 onClick={handleNavMenu}
