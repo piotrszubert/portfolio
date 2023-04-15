@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import LogoGrid from '../../components/logoGrid'
 import ToolKit from '../../components/toolKit'
 import Hero from '../../components/hero'
+import Faq from '../../components/faq'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero/>
       <LogoGrid/>
       <ToolKit/>
+      <Faq/>
     </div>
     </>
   )
