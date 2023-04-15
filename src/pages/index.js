@@ -21,6 +21,7 @@ export default function Home() {
       <Hero/>
       <LogoGrid/>
       <ToolKit/>
+      {/* CTA CONTACT */}
       <Faq/>
     </div>
     </>
