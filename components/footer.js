@@ -2,24 +2,12 @@ import Link from "next/link"
 
 export default function Footer() {
 
-    const footerNavs = [
-        {
-            href: 'javascript:void()',
-            name: 'Terms'
-        },
-        {
-            href: 'javascript:void()',
-            name: 'License'
-        },
-        {
-            href: 'javascript:void()',
-            name: 'Privacy'
-        },
-        {
-            href: 'javascript:void()',
-            name: 'About us'
-        }
+    const navigation = [
+        { title: "Home", path: "/" },
+        { title: "Contact", path: "/contact" },
+        { title: "Offer", path: "/offer" },
     ]
+
     return (
         <footer className="pt-10 bg-indigo-600">
             <div className="max-w-screen-xl mx-auto px-4 text-slate-400 md:px-8">
@@ -36,10 +24,10 @@ export default function Footer() {
                         </p>
                         <ul className="flex flex-wrap items-center gap-4 text-sm sm:text-base">
                             {
-                                footerNavs.map((item, idx) => (
+                                navigation?.map((item, idx) => (
                                     <li key={idx} className="text-white hover:text-purple-400 duration-150">
-                                        <a href={item.href}>
-                                            {item.name}
+                                        <a href={item?.path}>
+                                            {item?.title}
                                         </a>
                                     </li>
                                 ))

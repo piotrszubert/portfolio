@@ -8,9 +8,9 @@ export default function Navbar() {
     const { events } = useRouter();
 
     const navigation = [
-        { title: "Features", path: "#features" },
-        { title: "Our toolkit", path: "#toolkit" },
-        { title: "Testimonials", path: "#testimonials" },
+        { title: "Home", path: "/" },
+        { title: "Contact", path: "/contact" },
+        { title: "Offer", path: "/offer" },
     ]
 
     useEffect(() => {
@@ -58,14 +58,14 @@ export default function Navbar() {
                     <div className={`flex-1 pb-3 mt-8 md:pb-0 md:mt-0 md:block ${state ? "" : "hidden"}`}>
                         <ul className="text-white justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0 md:font-medium">
                             {
-                                navigation.map((item, idx) => {
+                                navigation?.map((item, idx) => {
                                     return (
                                         <li key={idx} className="duration-150 hover:text-purple-400">
                                             <Link
-                                                href={item.path}
+                                                href={item?.path}
                                                 className="block"
                                             >
-                                                {item.title}
+                                                {item?.title}
                                             </Link>
                                         </li>
                                     )
