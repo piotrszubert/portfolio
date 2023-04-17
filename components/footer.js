@@ -26,9 +26,9 @@ export default function Footer() {
                             {
                                 navigation?.map((item, idx) => (
                                     <li key={idx} className="text-white hover:text-purple-400 duration-150">
-                                        <a href={item?.path}>
+                                        <Link href={item?.path}>
                                             {item?.title}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))
                             }
