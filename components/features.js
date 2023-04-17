@@ -69,7 +69,7 @@ export default function Features() {
                     <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                         {
                             featuresList?.map((item, idx) => (
-                                <li key={idx} className="bg-white space-y-3 p-4 border rounded-lg">
+                                <li key={idx} className="bg-white space-y-3 p-4 border rounded-lg md:hover:-translate-y-2 duration-150">
                                     <div className="text-indigo-600 pb-3">
                                         {item?.icon}
                                     </div>
