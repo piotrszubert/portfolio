@@ -8,7 +8,7 @@ import Faq from '../../components/faq'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const servicesItems = ["Mobile development", "UI/UX Design", "web development", "SEO"]
+  // const servicesItems = ["Mobile development", "UI/UX Design", "web development", "SEO"]
 
   return (
     <>
@@ -57,7 +57,7 @@ export default function Home() {
                   className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                 />
               </div>
-              <div>
+              {/* <div>
                 <label className="font-medium">
                   Phone number
                 </label>
@@ -76,8 +76,8 @@ export default function Home() {
                     className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
                   />
                 </div>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <label className="font-medium">
                   Services
                 </label>
@@ -98,7 +98,7 @@ export default function Home() {
                     ))
                   }
                 </ul>
-              </div>
+              </div> */}
               <div>
                 <label className="font-medium">
                   Message
