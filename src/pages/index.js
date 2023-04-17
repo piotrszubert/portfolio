@@ -5,6 +5,7 @@ import ToolKit from '../../components/toolKit'
 import Hero from '../../components/hero'
 import Faq from '../../components/faq'
 import Cta from '../../components/cta'
+import Features from '../../components/features'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,9 @@ export default function Home() {
       </section>
       <section className='py-8 my-4'>
         <Cta/>
+      </section>
+      <section>
+        <Features/>
       </section>
       <section>
         <Faq/>
