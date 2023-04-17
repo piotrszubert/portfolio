@@ -1,4 +1,5 @@
 import { useRef, useState } from "react"
+import Link from "next/link"
 
 const FaqsCard = (props) => {
 
@@ -79,7 +80,10 @@ export default function Faq() {
                     Frequently Asked Questions
                 </h1>
                 <p className="text-gray-600 max-w-lg mx-auto text-lg">
-                    Answered all frequently asked questions, Still confused? feel free to contact us.
+                    Answered all frequently asked questions, Still confused? feel free to {" "}
+                    <Link href="/contact" className="text-indigo-600 font-semibold whitespace-nowrap"> 
+                        contact us.
+                    </Link>
                 </p>
             </div>
             <div className="mt-14 max-w-2xl mx-auto">
