@@ -5,6 +5,9 @@ export default function Custom404() {
         <main>
             <div className="max-w-screen-xl mx-auto px-4 flex items-center justify-start h-screen md:px-8">
                 <div className="max-w-lg mx-auto space-y-3 text-center">
+                    <span className="text-5xl text-indigo-600 font-bold">
+                        404
+                    </span>
                     <h3 className="text-gray-800 text-4xl font-semibold sm:text-5xl">
                         Page not found
                     </h3>
