@@ -35,7 +35,7 @@ export default function Navbar() {
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <Link className="flex gap-2 text-white text-xl" href="/">
                             <img src="/icons/nextjs.svg" className="" />
-                            Logo
+                            MarkupVault
                         </Link>
                         <div className="md:hidden">
                             <button role="button" aria-label="Open the menu" className="text-gwhiteray-500 hover:text-purple-400"
