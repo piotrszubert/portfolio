@@ -18,11 +18,7 @@ export default function Home() {
       </Head>
       
     <div className={inter.className}>
-      <Hero/>
-      <LogoGrid/>
-      <ToolKit/>
-      {/* CTA CONTACT */}
-      <Faq/>
+      Contact
     </div>
     </>
   )
