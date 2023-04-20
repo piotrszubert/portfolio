@@ -24,16 +24,16 @@ export default function Home() {
         <section>
           <Hero />
         </section>
-        <Animated direction='left'>
+        {/* <Animated direction='left'> */}
           <section>
             <ToolKit />
           </section>
-        </Animated>
-        <Animated direction='right'>
+        {/* </Animated> */}
+        {/* <Animated direction='right'> */}
           <section className='py-8 my-4'>
             <Cta />
           </section>
-        </Animated>
+        {/* </Animated> */}
         <section>
           <Features />
         </section>
