@@ -19,30 +19,28 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-    <div className={inter.className}>
-      <section>
-        <Hero/>
-      </section>
-      <section>
-      {/* <LogoGrid/> */}
-      <Animated>
-        <ToolKit/>
-      </Animated>
-      </section>
-      <section className='py-8 my-4'>
-        <Cta/>
-      </section>
-      <section>
-      <Animated>
 
-        <Features/>
-      </Animated>
-      </section>
-      <section>
-        <Faq/>
-      </section>
-    </div>
+      <div className={inter.className}>
+        <section>
+          <Hero />
+        </section>
+        <Animated direction='left'>
+          <section>
+            <ToolKit />
+          </section>
+        </Animated>
+        <Animated direction='right'>
+          <section className='py-8 my-4'>
+            <Cta />
+          </section>
+        </Animated>
+        <section>
+          <Features />
+        </section>
+        <section>
+          <Faq />
+        </section>
+      </div>
     </>
   )
 }

@@ -21,9 +21,6 @@ export default function Hero() {
                         </a> */}
                     </div>
                 </div>
-                <div className="mt-14">
-                    <img src="https://res.cloudinary.com/floatui/image/upload/v1670150563/desktop_dte2ar.png" className="w-full shadow-lg rounded-lg border" alt="" />
-                </div>
             </div>
         </section>
     )
