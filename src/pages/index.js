@@ -6,6 +6,7 @@ import Hero from '../../components/hero'
 import Faq from '../../components/faq'
 import Cta from '../../components/cta'
 import Features from '../../components/features'
+import Animated from '../../components/animated'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,13 +26,18 @@ export default function Home() {
       </section>
       <section>
       {/* <LogoGrid/> */}
-      <ToolKit/>
+      <Animated>
+        <ToolKit/>
+      </Animated>
       </section>
       <section className='py-8 my-4'>
         <Cta/>
       </section>
       <section>
+      <Animated>
+
         <Features/>
+      </Animated>
       </section>
       <section>
         <Faq/>
