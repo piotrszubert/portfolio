@@ -2,7 +2,7 @@ export default function Hero() {
     return (
         <section>
             <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 md:px-8">
-                <div className="space-y-5 max-w-4xl mx-auto text-center">
+                <div className="space-y-5 pt-10 max-w-4xl mx-auto text-center">
                     <h1 className="text-sm text-indigo-600 font-medium">
                         Build products for everyone
                     </h1>

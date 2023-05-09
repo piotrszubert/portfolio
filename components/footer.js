@@ -9,9 +9,9 @@ export default function Footer() {
     ]
 
     return (
-        <footer className="pt-10 bg-indigo-600">
-            <div className="max-w-screen-xl mx-auto px-4 text-purple-400 md:px-8">
-                <div className="">
+        <footer className="bg-indigo-600">
+            {/* <div className="ms-auto text-purple-400"> */}
+                {/* <div className="">
                     <div className="flex items-center justify-between">
                         <div>
                             <Link className="flex gap-2 text-white text-xl" href="/">
@@ -31,11 +31,11 @@ export default function Footer() {
                             }
                         </ul>
                     </div>
-                </div>
+                </div> */}
                 <div className="mt-10 py-6 text-sm border-t md:text-center text-white">
                     <p>&copy; 2023 MarkupVault All rights reserved.</p>
                 </div>
-            </div>
+            {/* </div> */}
         </footer>
     )
 }

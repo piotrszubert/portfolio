@@ -30,7 +30,7 @@ export default function Navbar() {
 
     return (
         <header>
-            <nav className={`bg-indigo-600 text-white w-full px-4 md:static md:text-sm ${state ? "fixed z-10 h-full" : ""}`}>
+            <nav className={`bg-indigo-600 text-white w-full px-4 z-20 md:text-sm fixed top-0 ${state ? "fixed z-10 h-full" : ""}`}>
                 <div className="custom-screen items-center mx-auto md:flex">
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <Link className="flex gap-2 text-white text-xl" href="/">
