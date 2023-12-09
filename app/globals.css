@@ -4,6 +4,7 @@
 
 :root {
   --foreground-rgb: 255, 255, 255;
+  --border-color: hsl(0, 0%, calc(7.77% * 3));
 }
 
 body {
@@ -13,6 +14,5 @@ body {
 
 
 .theme-border {
-  @apply border border-white/20;
-  border-color:hsl(0, 0%, 16%);
+  border-color:hsl(0, 0%, calc(7.77% * 3));
 }
