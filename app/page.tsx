@@ -6,10 +6,13 @@ export default function Home() {
 
         </div>
       </div>
-      <div className='bg-black min-h-[12rem] p-5 theme-border'>
+      <div className='bg-black min-h-[12rem] px-5 py-10 md:px-10 md:py-12 theme-border'>
         <h1 className='pb-2 text-2xl font-bold lg:text-3xl max-w-xl'>
           Frontend development specialist 
-          and software engineer based in Poland 🇵🇱
+          and software engineer based in Poland {' '}
+          <span className="text-sm md:text-base">
+            🇵🇱
+          </span>
         </h1>
       </div>
       <div className="bg-black py-2 border-b border-x theme-border"></div>

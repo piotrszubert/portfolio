@@ -4,23 +4,15 @@
 
 :root {
   --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 16, 0, 16;
-  --background-end-rgb: 9, 6, 9;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    /* background-color: #000;
-    color: rgb(var(--foreground-rgb)); */
+    background-color: #000;
+    color: rgb(var(--foreground-rgb));
 }
 
 
 .theme-border {
-  @apply border border-white/20
+  @apply border border-white/20;
+  border-color:hsl(0, 0%, 16%);
 }
