@@ -1,3 +1,5 @@
+import { Hero } from "@/components/ui/hero";
+
 export default function Home() {
   return (
     <main className="border-x theme-border max-w-3xl mx-auto min-h-screen">
@@ -7,16 +9,7 @@ export default function Home() {
         </div>
       </div> */}
       <div className=' min-h-[12rem] px-5 py-10 md:px-10 md:py-12 theme-border'>
-        <div className="max-w-xl">
-          <h1 className='pb-2 text-2xl font-bold lg:text-3xl'>
-            Frontend development specialist 
-            and software engineer.
-          </h1>
-          <p className="text-muted-foreground">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi 
-            blanditiis accusamus, soluta debitis omnis inventore molestiae quisquam laborum possimus in.
-          </p>
-        </div>
+        <Hero />
       </div>
       <div className='min-h-[12rem] px-5 py-10 md:px-10 md:py-12 border-t border-x-0 theme-border'>
         box content
