@@ -7,15 +7,24 @@ export default function Home() {
         </div>
       </div> */}
       <div className=' min-h-[12rem] px-5 py-10 md:px-10 md:py-12 theme-border'>
-        <h1 className='pb-2 text-2xl font-bold lg:text-3xl max-w-xl'>
-          Frontend development specialist 
-          and software engineer based in Poland
-        </h1>
+        <div className="max-w-xl">
+          <h1 className='pb-2 text-2xl font-bold lg:text-3xl'>
+            Frontend development specialist 
+            and software engineer.
+          </h1>
+          <p className="text-muted-foreground">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi 
+            blanditiis accusamus, soluta debitis omnis inventore molestiae quisquam laborum possimus in.
+          </p>
+        </div>
       </div>
-      <div className=' min-h-[12rem] p-5 border border-x-0 theme-border'>
+      <div className='min-h-[12rem] px-5 py-10 md:px-10 md:py-12 border-t border-x-0 theme-border'>
         box content
       </div>
-      <div className="px-2">
+      <div className='min-h-[12rem] px-5 py-10 md:px-10 md:py-12 border border-x-0 theme-border'>
+        box content
+      </div>
+      {/* <div className="px-2">
         <div className='bg-primary/30 h-3 border border-x-0 mt-2 theme-border'>
         </div>
       </div>
@@ -26,7 +35,7 @@ export default function Home() {
       <div className="px-8">
         <div className='bg-primary h-3 border border-x-0 mt-2 theme-border'>
         </div>
-      </div>
+      </div> */}
     </main>
   )
 }
