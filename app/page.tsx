@@ -2,7 +2,7 @@ import { Hero } from "@/components/ui/hero";
 
 export default function Home() {
   return (
-    <main className="border-x theme-border max-w-3xl mx-auto min-h-screen">
+    <main className="borde theme-border max-w-3xl mx-auto min-h-screen">
       {/* <div className="">
         <div className="p-3 my-3 bg-black theme-border">
 
@@ -17,6 +17,17 @@ export default function Home() {
       <div className='min-h-[12rem] px-5 py-10 md:px-10 md:py-12 border border-x-0 theme-border'>
         box content
       </div>
+      <footer className="border-y mb-2 mt-2 theme-border">
+        <div className="flex gap-6 py-6">
+          <div className="text-lg font-bold">
+            Let's connect 
+          </div>
+          <span>icon</span> <span>icon</span>
+        </div>
+        <div className="text-xs border-t py-2 theme-border text-muted-foreground">
+          Copyright ps777 &copy; 2023 
+        </div>
+      </footer>
       {/* <div className="px-2">
         <div className='bg-primary/30 h-3 border border-x-0 mt-2 theme-border'>
         </div>
