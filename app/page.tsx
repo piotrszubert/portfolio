@@ -17,7 +17,7 @@ export default function Home() {
         <div className="space-y-3">
           <div className="text-2xl font-bold">About</div>
           <p className="text-muted-foreground">
-            Over the past three years, I've focused on crafting visually
+            Over the past three years, I&apos;ve focused on crafting visually
             appealing websites and creating dynamic user interfaces. Driven by a
             strong passion, my main priority is to deliver top-notch
             performance, ensuring smooth and lightning-fast user experiences. I
