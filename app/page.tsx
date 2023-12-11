@@ -11,17 +11,6 @@ export default function Home() {
       </Section>
       <Separator />
       <Section>
-        <div className="max-w-xl space-y-3">
-          <div className="text-2xl font-bold">Projects</div>
-          <p className="text-muted-foreground">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            inventore nesciunt cum ipsam repellat deleniti sed tempore tempora
-            quaerat dolore.
-          </p>
-        </div>
-      </Section>
-      <Separator />
-      <Section>
         <div className="maxw-xl space-y-3">
           <div className="text-2xl font-bold">About</div>
           <p className="text-muted-foreground">
@@ -31,6 +20,17 @@ export default function Home() {
             performance, ensuring smooth and lightning-fast user experiences. I
             am dedicated to adopting an inclusive design approach, placing a
             high emphasis on accessibility for all users.{" "}
+          </p>
+        </div>
+      </Section>
+      <Separator />
+      <Section>
+        <div className="max-w-xl space-y-3">
+          <div className="text-2xl font-bold">Projects</div>
+          <p className="text-muted-foreground">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+            inventore nesciunt cum ipsam repellat deleniti sed tempore tempora
+            quaerat dolore.
           </p>
         </div>
       </Section>
