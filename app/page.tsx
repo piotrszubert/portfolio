@@ -6,8 +6,6 @@ import { Separator } from "@/components/ui/separator"
 export default function Home() {
   return (
     <main className="mx-auto max-w-2xl border-x border-dashed">
-      <Header />
-      <Separator />
       <Section>
         <Hero />
       </Section>

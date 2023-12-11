@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import { GeistSans } from "geist/font/sans"
 import { Footer } from "@/components/footer"
+import { Header } from "@/components/header"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
@@ -24,9 +25,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="px-2 md:px-0">
-
-          {children}
-          <Footer />
+            <Header />
+            {children}
+            <Footer />
           </div>
         </ThemeProvider>
       </body>
