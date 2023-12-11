@@ -3,7 +3,7 @@ import { Separator } from "./ui/separator"
 
 export const Footer = () => {
   return (
-    <footer className="mx-auto max-w-3xl border-x">
+    <footer className="mx-auto max-w-3xl border-x border-dashed">
       <Separator />
       <div className="flex items-center justify-center gap-6 py-6">
         <div className="text-2xl font-bold">Let&apos;s connect</div>
