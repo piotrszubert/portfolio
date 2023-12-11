@@ -1,3 +1,5 @@
+import { ThemeToggle } from "@/components/theme-toggle"
+import { Button } from "@/components/ui/button"
 import { Hero } from "@/components/ui/hero"
 
 export default function Home() {
@@ -8,6 +10,9 @@ export default function Home() {
 
         </div>
       </div> */}
+      <div className="flex flex-col items-end">
+        <ThemeToggle />
+      </div>
       <div className="min-h-[12rem] px-5 py-10 md:px-10 md:py-12">
         <Hero />
       </div>
