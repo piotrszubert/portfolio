@@ -18,13 +18,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={GeistSans.className}>
         <ThemeProvider
-         attribute="class"
-         defaultTheme="system"
-         enableSystem
-         disableTransitionOnChange
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
         >
-        {children}
-        <Footer />
+          {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

@@ -1,10 +1,11 @@
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
 import { Hero } from "@/components/ui/hero"
+import { Separator } from "@/components/ui/separator"
 
 export default function Home() {
   return (
-    <main className="mx-auto min-h-screen max-w-3xl border">
+    <main className="mx-auto max-w-3xl border-x">
       {/* <div className="">
         <div className="p-3 my-3 bg-black">
 
@@ -13,16 +14,26 @@ export default function Home() {
       <div className="flex flex-col items-end">
         <ThemeToggle />
       </div>
-      <div className="min-h-[12rem] px-5 py-10 md:px-10 md:py-12">
+      <div className="px-5 py-10 md:px-10 md:py-12">
         <Hero />
       </div>
-      <div className="min-h-[12rem] border-x-0 border-t px-5 py-10 md:px-10 md:py-12">
+      <Separator />
+      <div className=" space-y-3 px-5 py-10 md:px-10 md:py-12">
         <div className="text-2xl font-bold">Projects</div>
-        box content
+        <p className="text-muted-foreground">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+          inventore nesciunt cum ipsam repellat deleniti sed tempore tempora
+          quaerat dolore.
+        </p>
       </div>
-      <div className="min-h-[12rem] border border-x-0 px-5 py-10 md:px-10 md:py-12">
+      <Separator />
+      <div className="space-y-3 px-5 py-10 md:px-10 md:py-12">
         <div className="text-2xl font-bold">About</div>
-        box content
+        <p className="text-muted-foreground">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+          quaerat veniam aperiam inventore tempore repellat vero nisi saepe
+          similique velit.
+        </p>
       </div>
     </main>
   )
