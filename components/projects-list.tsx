@@ -44,7 +44,7 @@ export const ProjectsList = () => {
       {projectData.map((project) => (
         <div
           key={project.id}
-          className="relative flex items-center gap-6 rounded-xl border p-4"
+          className="relative flex flex-wrap items-center gap-6 rounded-xl border p-4 duration-500 hover:border-dashed md:flex-nowrap hover:md:translate-x-3 "
         >
           <Link className="absolute inset-0" href={project.githubLink}></Link>
           <Image
