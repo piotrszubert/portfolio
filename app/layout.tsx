@@ -23,8 +23,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <div className="px-2 md:px-0">
+
           {children}
           <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>

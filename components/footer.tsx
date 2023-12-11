@@ -3,8 +3,8 @@ import { Separator } from "./ui/separator"
 
 export const Footer = () => {
   return (
-    <footer className="mx-auto max-w-3xl border-x border-dashed">
-      <Separator />
+    <footer className="mx-auto max-w-2xl mb-2 rounded-2xl -mt-2 border border-dashed">
+      {/* <Separator /> */}
       <div className="flex items-center justify-center gap-6 py-6">
         <div className="text-2xl font-bold">Let&apos;s connect</div>
         <div className="flex items-center gap-3">
@@ -50,11 +50,10 @@ export const Footer = () => {
           </Link>
         </div>
       </div>
-      <Separator />
-      <div className="px-5 py-2 text-xs text-muted-foreground md:px-10">
+      {/* <Separator /> */}
+      <div className="px-5 py-2 text-xs border-t border-dashed text-muted-foreground md:px-10">
         Copyright ps777 &copy; 2023
       </div>
-      <Separator />
     </footer>
   )
 }
