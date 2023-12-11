@@ -5,7 +5,10 @@ export const Hero = () => {
   return (
     <div className="max-w-xl space-y-3">
       <h1 className="text-2xl font-bold lg:text-3xl">
-        Frontend development specialist and software engineer.
+        Frontend development specialist 
+        <br />
+        and 
+        software engineer.
       </h1>
       <p className="text-muted-foreground">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi

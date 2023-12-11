@@ -1,7 +1,10 @@
 import { Header } from "@/components/header"
+import { ProjectsList } from "@/components/projects-list"
 import { Section } from "@/components/section"
 import { Hero } from "@/components/ui/hero"
 import { Separator } from "@/components/ui/separator"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -11,7 +14,7 @@ export default function Home() {
       </Section>
       <Separator />
       <Section>
-        <div className="maxw-xl space-y-3">
+        <div className="space-y-3">
           <div className="text-2xl font-bold">About</div>
           <p className="text-muted-foreground">
             Over the past three years, I've focused on crafting visually
@@ -25,14 +28,7 @@ export default function Home() {
       </Section>
       <Separator />
       <Section>
-        <div className="max-w-xl space-y-3">
-          <div className="text-2xl font-bold">Projects</div>
-          <p className="text-muted-foreground">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            inventore nesciunt cum ipsam repellat deleniti sed tempore tempora
-            quaerat dolore.
-          </p>
-        </div>
+        <ProjectsList />
       </Section>
     </main>
   )
