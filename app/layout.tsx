@@ -4,6 +4,7 @@ import { GeistSans } from "geist/font/sans"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -29,6 +30,7 @@ export default function RootLayout({
             {children}
             <Footer />
           </div>
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
