@@ -4,10 +4,10 @@ import { GeistSans } from "geist/font/sans"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { ThemeProvider } from "@/components/theme-provider"
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react"
 import { siteConfig } from "@/config/site"
 
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
@@ -26,7 +26,7 @@ export const metadata = {
       url: "https://github.com/piotrszubert",
     },
   ],
-  creator: "ps77",
+  creator: "ps777",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -53,7 +53,6 @@ export const metadata = {
   // },
   // manifest: `${siteConfig.url}/site.webmanifest`,
 }
-
 
 export default function RootLayout({
   children,
