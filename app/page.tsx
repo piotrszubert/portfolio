@@ -1,10 +1,7 @@
-import { Header } from "@/components/header"
 import { ProjectsList } from "@/components/projects-list"
 import { Section } from "@/components/section"
 import { Hero } from "@/components/ui/hero"
 import { Separator } from "@/components/ui/separator"
-import Image from "next/image"
-import Link from "next/link"
 
 export default function Home() {
   return (

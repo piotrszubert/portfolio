@@ -4,7 +4,7 @@ import { GeistSans } from "geist/font/sans"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { ThemeProvider } from "@/components/theme-provider"
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react"
 import { siteConfig } from "@/config/site"
 
 export const metadata: Metadata = {
@@ -53,7 +53,6 @@ export const metadata: Metadata = {
   // },
   // manifest: `${siteConfig.url}/site.webmanifest`,
 }
-
 
 export default function RootLayout({
   children,

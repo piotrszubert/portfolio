@@ -34,10 +34,10 @@ export const ProjectsList = () => {
       <div className="mb-6 space-y-3">
         <div className="text-2xl font-bold">Projects</div>
         <p className="text-muted-foreground">
-          In my journey as a web developer, I&apos;ve had the opportunity to work on
-          a variety of exciting projects. Each project showcases my skills in
-          creating visually stunning and highly functional websites. Here are a
-          few notable projects that highlight my expertise:
+          In my journey as a web developer, I&apos;ve had the opportunity to
+          work on a variety of exciting projects. Each project showcases my
+          skills in creating visually stunning and highly functional websites.
+          Here are a few notable projects that highlight my expertise:
         </p>
       </div>
 
