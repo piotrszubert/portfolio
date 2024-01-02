@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       url: "https://github.com/piotrszubert",
     },
   ],
-  creator: "ps77",
+  creator: "ps777",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
