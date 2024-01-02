@@ -1,6 +1,6 @@
 import { ProjectsList } from "@/components/projects-list"
 import { Section } from "@/components/section"
-import { Hero } from "@/components/ui/hero"
+import { Hero } from "@/components/hero"
 import { Separator } from "@/components/ui/separator"
 
 export default function Home() {
