@@ -63,7 +63,9 @@ export const ProjectsList = () => {
             { project.technologiesUsed && (
             <div className="flex flex-wrap gap-1 py-2">
                 {project.technologiesUsed.map((tech) => (
-                  <Badge className="px-2 py-[1px]" variant="secondary">
+                  <Badge 
+                    key={tech}
+                    className="px-2 py-[1px]" variant="secondary">
                     {tech}
                   </Badge>
                 ))}
