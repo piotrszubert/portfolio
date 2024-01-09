@@ -1,11 +1,13 @@
 import Image from "next/image"
 import Link from "next/link"
+import { Badge } from "./ui/badge"
 
 const projectData = [
   {
     id: 1,
     name: "Yu",
     imageUrl: "/projects/yu-2.png",
+    technologiesUsed: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     description:
       "I embarked on creating a personal blog platform aimed at sharing insights, experiences, and tech-related knowledge. This project serves as a creative outlet and a means to connect with a diverse online community.",
     githubLink: "https://github.com/piotrszubert",
@@ -14,6 +16,7 @@ const projectData = [
     id: 2,
     name: "MindCanvas",
     imageUrl: "/projects/yu-2.png",
+    technologiesUsed: ['Next.js', 'TypeScript', 'Tailwind CSS', 'TypeScript', 'Tailwind CSS', 'TypeScript', 'Tailwind CSS'],
     description:
       "I embarked on creating a personal blog platform aimed at sharing insights, experiences, and tech-related knowledge. This project serves as a creative outlet and a means to connect with a diverse online community.",
     githubLink: "https://github.com/piotrszubert",
@@ -22,6 +25,7 @@ const projectData = [
     id: 3,
     name: "DevPortfolio",
     imageUrl: "/projects/yu-2.png",
+    technologiesUsed: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     description:
       "I embarked on creating a personal blog platform aimed at sharing insights, experiences, and tech-related knowledge. This project serves as a creative outlet and a means to connect with a diverse online community.",
     githubLink: "https://github.com/piotrszubert",
@@ -56,6 +60,16 @@ export const ProjectsList = () => {
           />
           <div className="flex flex-col">
             <h3 className="text-lg font-bold">{project.name}</h3>
+            { project.technologiesUsed && (
+            <div className="flex flex-wrap gap-1 py-2">
+                {project.technologiesUsed.map((tech) => (
+                  <Badge className="px-2 py-[1px]" variant="secondary">
+                    {tech}
+                  </Badge>
+                ))}
+            </div>
+            )
+            }
             <p className="text-xs text-muted-foreground">
               {project.description}
             </p>
