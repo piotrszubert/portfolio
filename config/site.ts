@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
   name: "ps777",
   description:
     "An open source application built using the new router, server components and everything new in Next.js 13.",
-  url: "",
+  url: "https://portfolio-ps777.vercel.app/",
   ogImage: "",
   links: {
     twitter: "",
