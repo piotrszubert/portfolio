@@ -9,7 +9,7 @@ export default function Home() {
       <Section>
         <Hero />
       </Section>
-      <Separator />
+      <Separator decorative={true} />
       <Section>
         <div className="space-y-3">
           <div className="text-2xl font-bold">About</div>
@@ -23,7 +23,7 @@ export default function Home() {
           </p>
         </div>
       </Section>
-      <Separator />
+      <Separator decorative={true} />
       <Section>
         <ProjectsList />
       </Section>

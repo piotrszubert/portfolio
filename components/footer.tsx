@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="flex items-center justify-center gap-6 py-6">
         <div className="text-2xl font-bold">Let&apos;s connect</div>
         <div className="flex items-center gap-3">
-          <Link
+          {/* <Link
             target="_blank"
             href="https://github.com/piotrszubert"
             className="block h-5 w-5 cursor-pointer text-muted-foreground hover:text-foreground"
@@ -27,8 +27,8 @@ export const Footer = () => {
                 d="M403.229 0h78.506L310.219 196.04 512 462.799H354.002L230.261 301.007 88.669 462.799h-78.56l183.455-209.683L0 0h161.999l111.856 147.88L403.229 0zm-27.556 415.805h43.505L138.363 44.527h-46.68l283.99 371.278z"
               />
             </svg>
-          </Link>
-          <Separator className="h-5" orientation="vertical" />
+          </Link> */}
+          {/* <Separator className="h-5" orientation="vertical" /> */}
           <Link
             target="_blank"
             href="https://github.com/piotrszubert"
